@@ -1,0 +1,6 @@
+{
+    "name": "bin",
+    "tree": {
+        "$path": "src"
+    }
+}
