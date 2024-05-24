@@ -11,6 +11,10 @@
   "files": [
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/berry-blossom/bin.git"
+  },
   "publishConfig": {
     "access": "public"
   },
