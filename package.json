@@ -9,7 +9,8 @@
   "license": "MIT",
   "description": "",
   "files": [
-    "src"
+    "src",
+    "default.project.json"
   ],
   "repository": {
     "type": "git",
