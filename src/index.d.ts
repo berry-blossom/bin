@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 interface Connection {
 	Disconnect(...args: unknown[]): void;
 }
@@ -41,7 +42,7 @@ type Bin = {
 	 *
 	 *	The Promise is then returned.
 	 */
-	AddPromise<T extends Promise<unknown>>(promise: T): T;
+	AddPromise<P>(promise: Promise<P>): Promise<P>;
 	/** Gets a task in the Bin based on the index return from Bin:Add */
 	Get(idx: number): Bin.Task;
 	/**
